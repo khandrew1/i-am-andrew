@@ -48,14 +48,6 @@ function ContactGrid() {
         </a>
         <a
           className={linkClass}
-          href="/Andrew_Khadder_resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          ★ resume
-        </a>
-        <a
-          className={linkClass}
           href="https://github.com/khandrew1"
           target="_blank"
           rel="noopener noreferrer"
@@ -81,11 +73,7 @@ export function ProfileColumn() {
       <NameCard />
       <ProfilePhotoBio />
       <ContactGrid />
-      <SectionPanel
-        title="skills & personal interests"
-        titleAs="h2"
-        bodyClassName="min-h-0"
-      >
+      <SectionPanel title="skills & personal interests" titleAs="h2" bodyClassName="min-h-0">
         <SkillsTable />
       </SectionPanel>
     </div>

@@ -24,4 +24,4 @@ Uses `pnpm` (see `packageManager` in `package.json`).
 
 - `src/App.tsx` — page shell
 - `src/components/portfolio/` — section panels (profile, blog, blurbs, projects, etc.)
-- `public/` — images, resume PDF, and other static assets
+- `public/` — images and other static assets
